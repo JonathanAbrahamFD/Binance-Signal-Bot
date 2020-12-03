@@ -33,16 +33,16 @@ currentBtc = cf.getCoinBalance(client, 'btc')
 print(currentBtc)
 currentBnb = cf.getCoinBalance(client, 'bnb')
 print(currentBnb)
-currentTRX = cf.getCoinBalance(client, 'TRX')
-print(currentTRX)
+currentETH = cf.getCoinBalance(client, 'ETH')
+print(currentETH)
 
 hasToken = False
 currentTokenBalance = 0
 
 #to change market just use the find and replace command to replace TRX with any other symbol.
 #For example replace TRX with LRC for the LRC-BTC market
-market = "TRXBTC"
-trade = "TRX"
+market = "ETHBTC"
+trade = "ETH"
 sellToBuyTransition = False
 
 buyPrice = 0
